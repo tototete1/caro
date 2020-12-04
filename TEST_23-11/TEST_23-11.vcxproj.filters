@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Console">
+      <UniqueIdentifier>{84dd6c9c-80d9-4bfa-8821-abb617cdbfd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MENU">
+      <UniqueIdentifier>{101d6998-5744-4a63-9284-d1b690b82f5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MENU\MAIN">
+      <UniqueIdentifier>{391f979e-4ae4-400a-8bdf-351120f57830}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MENU\MAIN\control">
+      <UniqueIdentifier>{57215f20-6885-49a1-9cdf-60e611c88f8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MENU\MAIN\menu">
+      <UniqueIdentifier>{1bbee39c-827a-47c9-bd38-cf85fc0c9797}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MAIN_GAME">
+      <UniqueIdentifier>{037abf2f-03ca-4b3d-84aa-09a1753f0374}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MAIN_GAME\GAME">
+      <UniqueIdentifier>{64fb82d9-57d5-4018-b61b-c0bd3a129b61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MAIN_GAME\DRAW">
+      <UniqueIdentifier>{0c26514e-c654-458c-867d-79d6e8e88776}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DATA">
+      <UniqueIdentifier>{f5b3e697-15a7-48e4-8a22-4bc7a8538901}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MAIN_GAME\GAME\control">
+      <UniqueIdentifier>{db5881b7-4894-4e20-b331-360f83d89682}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MAIN_GAME\GAME\Process">
+      <UniqueIdentifier>{2705cd37-82be-4a6b-b53f-112dd82e1de4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MENU\GAME">
+      <UniqueIdentifier>{3f5382b0-a62a-490e-bb35-877ac7a5f538}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\MAIN_GAME\GAME\MODE">
+      <UniqueIdentifier>{f514c417-8215-4e6b-8b82-449c6209b91b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DATA_USER">
+      <UniqueIdentifier>{abb23b04-f3e8-4ef6-8073-22f9630a7ff4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DATA_USER\SAVE">
+      <UniqueIdentifier>{d3214eb5-70fe-41c0-af38-61b602d78fd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DATA_USER\txt">
+      <UniqueIdentifier>{e49e7c6c-8cdd-4a67-b02e-374bf9547ca2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Console.h">
+      <Filter>Header Files\Console</Filter>
+    </ClInclude>
+    <ClInclude Include="Selection.h">
+      <Filter>Source Files\MENU\MAIN\control</Filter>
+    </ClInclude>
+    <ClInclude Include="MAIN_MENU.h">
+      <Filter>Source Files\MENU\MAIN\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="MAIN_GAME.h">
+      <Filter>Source Files\MAIN_GAME\GAME</Filter>
+    </ClInclude>
+    <ClInclude Include="DRAW.h">
+      <Filter>Source Files\MAIN_GAME\DRAW</Filter>
+    </ClInclude>
+    <ClInclude Include="ResetData.h">
+      <Filter>Source Files\DATA</Filter>
+    </ClInclude>
+    <ClInclude Include="Move.h">
+      <Filter>Source Files\MAIN_GAME\GAME\control</Filter>
+    </ClInclude>
+    <ClInclude Include="Process.h">
+      <Filter>Source Files\MAIN_GAME\GAME\Process</Filter>
+    </ClInclude>
+    <ClInclude Include="Check.h">
+      <Filter>Source Files\MAIN_GAME\GAME\Process</Filter>
+    </ClInclude>
+    <ClInclude Include="MENU_GAME.h">
+      <Filter>Source Files\MENU\GAME</Filter>
+    </ClInclude>
+    <ClInclude Include="Process_Final.h">
+      <Filter>Source Files\MAIN_GAME\GAME\Process</Filter>
+    </ClInclude>
+    <ClInclude Include="END.h">
+      <Filter>Source Files\MAIN_GAME\GAME\Process</Filter>
+    </ClInclude>
+    <ClInclude Include="NewGame.h">
+      <Filter>Source Files\MAIN_GAME\GAME\Process</Filter>
+    </ClInclude>
+    <ClInclude Include="MODE.h">
+      <Filter>Source Files\MAIN_GAME\GAME\MODE</Filter>
+    </ClInclude>
+    <ClInclude Include="DATA_USER.h">
+      <Filter>Source Files\DATA_USER</Filter>
+    </ClInclude>
+    <ClInclude Include="INPUT1.h">
+      <Filter>Source Files\DATA_USER</Filter>
+    </ClInclude>
+    <ClInclude Include="SAVE.h">
+      <Filter>Source Files\DATA_USER\SAVE</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Console.cpp">
+      <Filter>Header Files\Console</Filter>
+    </ClCompile>
+    <ClCompile Include="GAME.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Selection.cpp">
+      <Filter>Source Files\MENU\MAIN\control</Filter>
+    </ClCompile>
+    <ClCompile Include="MAIN_MENU.cpp">
+      <Filter>Source Files\MENU\MAIN\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="MAIN_GAME.cpp">
+      <Filter>Source Files\MAIN_GAME\GAME</Filter>
+    </ClCompile>
+    <ClCompile Include="DRAW.cpp">
+      <Filter>Source Files\MAIN_GAME\DRAW</Filter>
+    </ClCompile>
+    <ClCompile Include="ResetData.cpp">
+      <Filter>Source Files\DATA</Filter>
+    </ClCompile>
+    <ClCompile Include="Move.cpp">
+      <Filter>Source Files\MAIN_GAME\GAME\control</Filter>
+    </ClCompile>
+    <ClCompile Include="Process.cpp">
+      <Filter>Source Files\MAIN_GAME\GAME\Process</Filter>
+    </ClCompile>
+    <ClCompile Include="Check.cpp">
+      <Filter>Source Files\MAIN_GAME\GAME\Process</Filter>
+    </ClCompile>
+    <ClCompile Include="MENU_GAME.cpp">
+      <Filter>Source Files\MENU\GAME</Filter>
+    </ClCompile>
+    <ClCompile Include="Process_Final.cpp">
+      <Filter>Source Files\MAIN_GAME\GAME\Process</Filter>
+    </ClCompile>
+    <ClCompile Include="DRAW_FINAL.cpp">
+      <Filter>Source Files\MAIN_GAME\DRAW</Filter>
+    </ClCompile>
+    <ClCompile Include="END.cpp">
+      <Filter>Source Files\MAIN_GAME\GAME\Process</Filter>
+    </ClCompile>
+    <ClCompile Include="NewGame.cpp">
+      <Filter>Source Files\MAIN_GAME\GAME\Process</Filter>
+    </ClCompile>
+    <ClCompile Include="MODE.cpp">
+      <Filter>Source Files\MAIN_GAME\GAME\MODE</Filter>
+    </ClCompile>
+    <ClCompile Include="DATA_USER.cpp">
+      <Filter>Source Files\DATA_USER</Filter>
+    </ClCompile>
+    <ClCompile Include="INPUT1.cpp">
+      <Filter>Source Files\DATA_USER</Filter>
+    </ClCompile>
+    <ClCompile Include="SAVE.cpp">
+      <Filter>Source Files\DATA_USER\SAVE</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TEST_23-11.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="name_save.txt">
+      <Filter>Source Files\DATA_USER\txt</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
